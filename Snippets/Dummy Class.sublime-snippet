@@ -1,7 +1,9 @@
 <snippet>
     <content><![CDATA[<?${TM_PHP_OPEN_TAG:php} defined('SYSPATH') or die('No direct script access.');
 
-class ${1:Class_Name} extends Kohana_$1 {}$0]]></content>
+$3class ${1:Class_Name} extends ${2:Kohana}_$1 {
+	// @see $2_$1
+}$0]]></content>
     <tabTrigger>kdummy</tabTrigger>
     <scope>text.html - source.php</scope>
     <description>Kohana Dummy Class</description>
